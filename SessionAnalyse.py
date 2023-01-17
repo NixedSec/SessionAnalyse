@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-#SessionAnalyse.py v0.2
+#SessionAnalyse.py v0.2.1
 #NixedSec
 
 from sys import argv
@@ -96,8 +96,8 @@ def analyse(site, cookie):
         print ("Characters: " + str(sorted(characters)))
         
         if (len(dupeIDs) > 0):
-            print ("Duplcate ID count: " + str(len(dupeIDs)))
-            print ("Duplcate IDs: ")
+            print ("Duplicate ID count: " + str(len(dupeIDs)))
+            print ("Duplicate IDs: ")
             for dupe in dupeIDs:
                 print (dupe)    
         else:
